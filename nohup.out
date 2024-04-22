@@ -1,0 +1,63 @@
+Current number of restarts: 
+Current number of restarts: 
+Current number of restarts: 
+Current number of restarts: 0
+Current number of restarts: 1
+Current number of restarts: 2
+Current number of restarts: 2
+Current number of restarts: 3
+Current number of restarts: 3
+Current number of restarts: 4
+Current number of restarts: 4
+Current number of restarts: 5
+Maximum number of restarts exceeded. Scaling down the deployment...
+deployment.apps/swype-app scaled
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 0
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 1
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 2
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 3
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 3
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 4
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 4
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+Current number of restarts: 4
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+deployment.apps/swype-app scaled
+watcher.sh: line 11: /var/log/deployment_scaler.log: Permission denied
+deployment.apps/swype-app scaled
+error: error executing jsonpath "{.items[0].status.containerStatuses[0].restartCount}": Error executing template: array index out of bounds: index 0, length 0. Printing more information for debugging the template:
+	template was:
+		{.items[0].status.containerStatuses[0].restartCount}
+	object given to jsonpath engine was:
+		map[string]interface {}{"apiVersion":"v1", "items":[]interface {}{}, "kind":"List", "metadata":map[string]interface {}{"resourceVersion":""}}
+
+
+Current number of restarts: 
+error: error executing jsonpath "{.items[0].status.containerStatuses[0].restartCount}": Error executing template: array index out of bounds: index 0, length 0. Printing more information for debugging the template:
+	template was:
+		{.items[0].status.containerStatuses[0].restartCount}
+	object given to jsonpath engine was:
+		map[string]interface {}{"apiVersion":"v1", "items":[]interface {}{}, "kind":"List", "metadata":map[string]interface {}{"resourceVersion":""}}
+
+
+Current number of restarts: 
+error: error executing jsonpath "{.items[0].status.containerStatuses[0].restartCount}": Error executing template: array index out of bounds: index 0, length 0. Printing more information for debugging the template:
+	template was:
+		{.items[0].status.containerStatuses[0].restartCount}
+	object given to jsonpath engine was:
+		map[string]interface {}{"apiVersion":"v1", "items":[]interface {}{}, "kind":"List", "metadata":map[string]interface {}{"resourceVersion":""}}
+
+
+Current number of restarts: 
